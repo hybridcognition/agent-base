@@ -66,8 +66,12 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # Check whitelist
     if not is_whitelisted(chat_id):
+        user_id = update.effective_user.id
+        username = update.effective_user.username
+        # Log the chat_id for the user to add to whitelist
+        print(f"UNAUTHORIZED ACCESS - Chat ID: {chat_id}, User ID: {user_id}, Username: @{username}")
         await update.message.reply_text(
-            "Sorry, you are not authorized to use this bot."
+            f"Sorry, you are not authorized to use this bot.\n\nYour Chat ID: {chat_id}\n\nAdd this to ALLOWED_CHAT_IDS in .env file."
         )
         return
 
@@ -105,8 +109,12 @@ async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # Check whitelist
     if not is_whitelisted(chat_id):
+        user_id = update.effective_user.id
+        username = update.effective_user.username
+        # Log the chat_id for the user to add to whitelist
+        print(f"UNAUTHORIZED ACCESS - Chat ID: {chat_id}, User ID: {user_id}, Username: @{username}")
         await update.message.reply_text(
-            "Sorry, you are not authorized to use this bot."
+            f"Sorry, you are not authorized to use this bot.\n\nYour Chat ID: {chat_id}\n\nAdd this to ALLOWED_CHAT_IDS in .env file."
         )
         return
 

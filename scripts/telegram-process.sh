@@ -66,7 +66,7 @@ fi
 
 # Invoke Claude Code
 cd "$WORKSPACE_DIR"
-timeout "$TIMEOUT" IS_SANDBOX=1 claude --dangerously-skip-permissions "$WORKSPACE_DIR/claude.md" >> "$LOG_FILE" 2>&1
+IS_SANDBOX=1 timeout "$TIMEOUT" claude --dangerously-skip-permissions "$WORKSPACE_DIR/claude.md" >> "$LOG_FILE" 2>&1
 CLAUDE_EXIT=$?
 
 if [ $CLAUDE_EXIT -eq 124 ]; then
