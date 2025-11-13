@@ -74,3 +74,4 @@ plan-*.md
 # Lock files
 .wake-lock
 synthesis/
+/agent-collab/
