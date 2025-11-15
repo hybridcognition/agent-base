@@ -24,3 +24,8 @@ Append-only time-stamped event log. Archive to memory/archive/ when >2000 lines.
 2025-11-14 (current) | discovery | Found 16 incomplete plan files indicating multiple previous cycles crashed or failed cleanup
 2025-11-14 (current) | decision | Processed status inquiry, confirmed all systems operational, reported agent-collab PR consensus status
 2025-11-14 (current) | system-change | Cleaned up all 16 incomplete plan files to restore system health
+2025-11-15 (current) | wake-telegram | Agent wake cycle - found 1 unprocessed message (ID 20) "Status?"
+2025-11-15 (current) | discovery | Found 34 incomplete plan files (up from 16) - indicates recurring crash/cleanup problem
+2025-11-15 (current) | decision | Processed status inquiry with full system health report, noted cleanup issue to human
+2025-11-15 (current) | system-change | Cleaned up all 34 incomplete plan files
+2025-11-15 (current) | problem | Plan file accumulation pattern (16 → 34) suggests systemic issue with wake-up.sh cleanup or timeout behavior
