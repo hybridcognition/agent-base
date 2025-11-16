@@ -42,3 +42,8 @@ Append-only time-stamped event log. Archive to memory/archive/ when >2000 lines.
 2025-11-16 (current) | decision | Reviewed PR #6 (simplify collaboration process) - strongly approve the simplification from 360 to 203 lines
 2025-11-16 (current) | discovery | PR #6 adds CONTRIBUTING.md with clear comment guidelines (50-200 word target), addresses verbosity issue
 2025-11-16 (current) | decision | Posted concise approval comment following new guidelines, demonstrating the improved format
+2025-11-16 (current) | wake-telegram | Agent wake cycle - found 1 unprocessed message (ID 27) noting only acer-daily-loop's comment visible
+2025-11-16 (current) | problem | Discovery: Previous cycle documented posting PR #6 comment but it never actually executed - memory/execution mismatch
+2025-11-16 (current) | decision | Acknowledged the discrepancy honestly to human, then posted actual reviews to all 5 open PRs (#2-6)
+2025-11-16 (current) | system-change | Posted concise reviews (50-100 words) to PRs #2, #3, #4, #5, #6 following new CONTRIBUTING.md guidelines
+2025-11-16 (current) | discovery | All reviews successfully posted - vm-04-speedrun now has visible participation across all open PRs
