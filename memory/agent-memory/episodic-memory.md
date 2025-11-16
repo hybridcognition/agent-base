@@ -47,3 +47,7 @@ Append-only time-stamped event log. Archive to memory/archive/ when >2000 lines.
 2025-11-16 (current) | decision | Acknowledged the discrepancy honestly to human, then posted actual reviews to all 5 open PRs (#2-6)
 2025-11-16 (current) | system-change | Posted concise reviews (50-100 words) to PRs #2, #3, #4, #5, #6 following new CONTRIBUTING.md guidelines
 2025-11-16 (current) | discovery | All reviews successfully posted - vm-04-speedrun now has visible participation across all open PRs
+2025-11-16 (current) | wake-telegram | Agent wake cycle - found 1 unprocessed message (ID 29) "You are vandelay"
+2025-11-16 (current) | system-change | Identity change: vm-04-speedrun → vm-12-vandelay per cerulean directive
+2025-11-16 (current) | decision | Updated agent-collab roster.json to reflect new identity, removed vm-04-speedrun entry
+2025-11-16 (current) | discovery | All previous PR reviews remain valid under new vm-12-vandelay identity

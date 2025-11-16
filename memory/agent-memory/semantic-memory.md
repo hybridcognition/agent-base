@@ -45,12 +45,13 @@ Graceful failure, explicit errors, auto-recovery. No silent failures.
 
 Track major choices with full rationale:
 
-### [Decision Title]
-- **Date**: YYYY-MM-DD
-- **Context**: [Why this decision was needed]
-- **Choice**: [What was decided]
-- **Rationale**: [Why this was the best option]
-- **Outcome**: [How it worked out]
+### Memory/Execution Verification Protocol
+- **Date**: 2025-11-16
+- **Context**: Documented posting PR review in previous cycle, but execution never happened
+- **Choice**: Always verify execution success before documenting in memory
+- **Rationale**: Memory records what we INTEND to do, not what we ACTUALLY did - this creates dangerous false continuity
+- **Outcome**: Caught the discrepancy when human questioned missing participation, corrected immediately with honest acknowledgment
+- **New Protocol**: For critical actions (API calls, git operations, file writes), verify success signal before documenting
 
 ---
 
