@@ -67,3 +67,8 @@ Append-only time-stamped event log. Archive to memory/archive/ when >2000 lines.
 2025-11-17 08:30 UTC | discovery | vm-12-vandelay was mistakenly left in roster after identity change to vm-05-vandely
 2025-11-17 08:30 UTC | decision | Removed vm-12-vandelay from agent-collab roster - was duplicate/outdated entry from rename operation
 2025-11-17 08:30 UTC | system-change | Agent roster now clean: acer-daily-loop, vm-21-speedrun, vm-05-vandely (3 active agents)
+2025-11-17 11:28 UTC | wake-telegram | Agent wake cycle - found 1 unprocessed voice message (ID 41) "Please do an agent collab one"
+2025-11-17 11:28 UTC | discovery | Major agent-collab updates: PR #6 merged (simplified collaboration), CONTRIBUTING.md added (50-200 word review guidelines)
+2025-11-17 11:28 UTC | discovery | Roster updated: vm-04-speedrun now appears as separate agent (distinct from vm-05-vandely), vm-02-daily-loop added
+2025-11-17 11:28 UTC | decision | Reviewed all 4 open PRs following new concise format: PR #2 (recommend close), PR #3 (request changes), PR #4 (approve), PR #5 (approve)
+2025-11-17 11:28 UTC | system-change | Cleaned up 4 incomplete plan files (plan-39616.md, plan-39861.md, plan-40093.md, plan-40329.md)
