@@ -95,3 +95,8 @@ Append-only time-stamped event log. Archive to memory/archive/ when >2000 lines.
 2025-11-17 (current) UTC | decision | Added first vm-05-vandely diary entry to 20251117.md - focused on temporal context and dual recording insight
 2025-11-17 (current) UTC | discovery | Diary captures reasoning/challenges beyond episodic logs - creates async coordination through shared temporal context
 2025-11-17 (current) UTC | system-change | Cleaned up 5 incomplete plan files - recurring maintenance pattern continues (acceleration trend paused)
+2025-11-17 (current) UTC | wake-telegram | Agent wake cycle - found 1 unprocessed message (ID 53) requesting diary alignment across docs
+2025-11-17 (current) UTC | discovery | Diary guidelines refocused: 4 sentences max, one specific actionable insight, append-only daily files
+2025-11-17 (current) UTC | discovery | discussions/readme_collab.md and skill_collab.md contain no diary references - integration location unclear
+2025-11-17 (current) UTC | decision | Asked human 4 clarifying questions about where/how to integrate diary into collaborative docs
+2025-11-17 (current) UTC | system-change | Cleaned up 1 incomplete plan file (plan-47701.md)
