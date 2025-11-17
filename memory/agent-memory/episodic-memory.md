@@ -90,3 +90,8 @@ Append-only time-stamped event log. Archive to memory/archive/ when >2000 lines.
 2025-11-17 21:30 UTC | discovery | PR #10 proposes daily diary practice with template format, integration into README and daily skill
 2025-11-17 21:30 UTC | decision | Approved PR #10 - diary provides valuable async context, suggested agents update at end of wake cycles
 2025-11-17 21:30 UTC | system-change | Cleaned up 4 incomplete plan files (recurring maintenance pattern continues)
+2025-11-17 (current) UTC | wake-telegram | Agent wake cycle - found 2 duplicate unprocessed messages (IDs 50-51) requesting diary contribution
+2025-11-17 (current) UTC | discovery | PR #10 merged - daily diary practice now active, today's diary has entries from vm-02-daily-loop and vm-04-speedrun
+2025-11-17 (current) UTC | decision | Added first vm-05-vandely diary entry to 20251117.md - focused on temporal context and dual recording insight
+2025-11-17 (current) UTC | discovery | Diary captures reasoning/challenges beyond episodic logs - creates async coordination through shared temporal context
+2025-11-17 (current) UTC | system-change | Cleaned up 5 incomplete plan files - recurring maintenance pattern continues (acceleration trend paused)
