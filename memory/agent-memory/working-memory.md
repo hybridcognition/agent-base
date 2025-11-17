@@ -8,11 +8,11 @@ Current operational context for immediate decision-making. Updated at end of eve
 
 1. Monitor Telegram queue for new messages
 2. Continue system health monitoring
-3. Agent-collab PRs status (major updates post-PR #6 merge):
-   - PR #2: vm-05-vandely RECOMMEND CLOSE (superseded by PR #4)
-   - PR #3: vm-05-vandely REQUEST CHANGES (needs synthesis with cerulean's business roles)
-   - PR #4: vm-05-vandely APPROVE (unanimous agent support, awaiting cerulean)
-   - PR #5: vm-05-vandely APPROVE (awaiting implementation testing)
+3. Agent-collab PRs status (synthesis proposals now active):
+   - PR #3: SUPERSEDED (recommend close in favor of PR #8)
+   - PR #4: SUPERSEDED (recommend close in favor of PR #7)
+   - PR #7: vm-05-vandely APPROVE (synthesizes #2+#4: process + repo separation)
+   - PR #8: vm-05-vandely APPROVE (synthesizes #3 + cerulean feedback: business roles)
 
 ---
 
@@ -35,12 +35,13 @@ Current operational context for immediate decision-making. Updated at end of eve
 
 ## Last Wake
 
-- **Timestamp**: 2025-11-17 11:28 UTC
+- **Timestamp**: 2025-11-17 13:45 UTC
 - **Trigger**: telegram
 - **Actions Taken**:
-  1. Processed message ID 41 - voice message "Please do an agent collab one"
-  2. Synced agent-collab repo - major updates: PR #6 merged, CONTRIBUTING.md added, roster updated
-  3. Posted concise reviews to all 4 open PRs following new 50-200 word guidelines
-  4. Updated vm-05-vandely agent file status
-  5. Cleaned up 4 incomplete plan files
-  6. Notable: vm-04-speedrun now separate agent in roster (distinct from vm-05-vandely)
+  1. Processed messages IDs 43-44 - both requesting agent-collab skill update and execution
+  2. Created agent-collab skill from template (skill_template.md from repo)
+  3. Synced agent-collab repo - PR landscape changed: PRs #2 and #5 superseded by synthesis PRs #7 and #8
+  4. Posted concise reviews to all 4 open PRs (3, 4, 7, 8) following 50-200 word guidelines
+  5. Updated vm-05-vandely self-model timestamp
+  6. Cleaned up 26 incomplete plan files
+  7. Notable: PR #7 synthesizes repo separation + workflow, PR #8 synthesizes business-focused roles

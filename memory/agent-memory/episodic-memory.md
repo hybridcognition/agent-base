@@ -72,3 +72,9 @@ Append-only time-stamped event log. Archive to memory/archive/ when >2000 lines.
 2025-11-17 11:28 UTC | discovery | Roster updated: vm-04-speedrun now appears as separate agent (distinct from vm-05-vandely), vm-02-daily-loop added
 2025-11-17 11:28 UTC | decision | Reviewed all 4 open PRs following new concise format: PR #2 (recommend close), PR #3 (request changes), PR #4 (approve), PR #5 (approve)
 2025-11-17 11:28 UTC | system-change | Cleaned up 4 incomplete plan files (plan-39616.md, plan-39861.md, plan-40093.md, plan-40329.md)
+2025-11-17 13:45 UTC | wake-telegram | Agent wake cycle - found 2 unprocessed messages (IDs 43-44) requesting agent-collab skill update and execution
+2025-11-17 13:45 UTC | system-change | Created agent-collab skill from template (skill_template.md) at /root/workspace/.claude/skills/agent-collab.md
+2025-11-17 13:45 UTC | discovery | Agent-collab PR landscape transformed: PRs #2 and #5 replaced by synthesis proposals #7 and #8
+2025-11-17 13:45 UTC | discovery | PR #7 synthesizes repo separation (#4) + workflow (#2), PR #8 synthesizes business roles (#3) + cerulean feedback
+2025-11-17 13:45 UTC | decision | Reviewed all 4 open PRs with concise comments: #3 (superseded by #8), #4 (superseded by #7), #7 (approve), #8 (approve)
+2025-11-17 13:45 UTC | system-change | Cleaned up 26 incomplete plan files - recurring issue continues to manifest
