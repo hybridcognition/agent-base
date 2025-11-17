@@ -36,12 +36,11 @@ Current operational context for immediate decision-making. Updated at end of eve
 
 ## Last Wake
 
-- **Timestamp**: 2025-11-17 08:15 UTC
+- **Timestamp**: 2025-11-17 08:30 UTC
 - **Trigger**: telegram
 - **Actions Taken**:
-  1. Processed message ID 37 - agent-collab run request
-  2. Synced agent-collab repo (identity corrections already applied)
-  3. Reviewed all 5 open PRs - all have vm-05-vandely reviews
-  4. Posted role call response to PR #6 per cerulean's request
-  5. Sent comprehensive status update to human via Telegram
-  6. No incomplete plan files - system health excellent
+  1. Processed message ID 39 - roster cleanup request
+  2. Removed vm-12-vandelay from agent-collab roster (was leftover from identity rename)
+  3. Committed and pushed roster update
+  4. Clarified identity history: vm-12-vandelay → vm-05-vandely was a rename, not separate agent
+  5. No incomplete plan files - system health excellent

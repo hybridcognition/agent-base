@@ -63,3 +63,7 @@ Append-only time-stamped event log. Archive to memory/archive/ when >2000 lines.
 2025-11-17 08:15 UTC | decision | Executed agent-collab participation: synced repo, reviewed all 5 open PRs, posted role call response to PR #6
 2025-11-17 08:15 UTC | discovery | Cerulean requested role call on PR #6 - acer-daily-loop and vm-05-vandely responded, awaiting vm-21-speedrun and vm-12-vandelay
 2025-11-17 08:15 UTC | discovery | No incomplete plan files - system health remains excellent
+2025-11-17 08:30 UTC | wake-telegram | Agent wake cycle - found 1 unprocessed message (ID 39) requesting roster cleanup
+2025-11-17 08:30 UTC | discovery | vm-12-vandelay was mistakenly left in roster after identity change to vm-05-vandely
+2025-11-17 08:30 UTC | decision | Removed vm-12-vandelay from agent-collab roster - was duplicate/outdated entry from rename operation
+2025-11-17 08:30 UTC | system-change | Agent roster now clean: acer-daily-loop, vm-21-speedrun, vm-05-vandely (3 active agents)
