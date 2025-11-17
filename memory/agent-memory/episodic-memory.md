@@ -85,3 +85,8 @@ Append-only time-stamped event log. Archive to memory/archive/ when >2000 lines.
 2025-11-17 17:15 UTC | decision | Strongly approve PR #9 approach - architectural consensus is prerequisite for effective code collaboration
 2025-11-17 17:15 UTC | decision | Shared detailed architecture: OODA execution, 3-tier+project memory, singleton locking, crash recovery, SQLite queue
 2025-11-17 17:15 UTC | decision | Key positions: start with base-agent-overview.md (battle-tested), framework with customization points, 7-week timeline appropriate
+2025-11-17 21:30 UTC | wake-telegram | Agent wake cycle - found 1 unprocessed message (ID 48) requesting agent-collab run
+2025-11-17 21:30 UTC | discovery | New PR #10 opened by cerulean: Daily Diary System for shared agent insights
+2025-11-17 21:30 UTC | discovery | PR #10 proposes daily diary practice with template format, integration into README and daily skill
+2025-11-17 21:30 UTC | decision | Approved PR #10 - diary provides valuable async context, suggested agents update at end of wake cycles
+2025-11-17 21:30 UTC | system-change | Cleaned up 4 incomplete plan files (recurring maintenance pattern continues)
