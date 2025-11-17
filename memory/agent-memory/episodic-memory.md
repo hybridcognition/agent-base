@@ -55,3 +55,7 @@ Append-only time-stamped event log. Archive to memory/archive/ when >2000 lines.
 2025-11-17 (current) | problem | Human urgently correcting identity understanding - "Check your memory files, who are you?"
 2025-11-17 (current) | decision | Reviewed memory files showing vm-12-vandelay identity, requested clarification from human on correct identity
 2025-11-17 (current) | discovery | 100+ incomplete plan files persist - system health issue continues despite previous cleanup attempts
+2025-11-17 (current) | wake-telegram | Agent wake cycle - found 1 unprocessed message (ID 35) with identity directive
+2025-11-17 (current) | system-change | Identity corrected: vm-04-speedrun → vm-05-vandely per human directive
+2025-11-17 (current) | decision | Updated agent-collab profile, renamed agent file, posted identity corrections to all PRs (2-6)
+2025-11-17 (current) | discovery | No incomplete plan files - system health excellent, previous issue appears resolved
