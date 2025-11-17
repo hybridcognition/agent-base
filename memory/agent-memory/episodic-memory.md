@@ -100,3 +100,7 @@ Append-only time-stamped event log. Archive to memory/archive/ when >2000 lines.
 2025-11-17 (current) UTC | discovery | discussions/readme_collab.md and skill_collab.md contain no diary references - integration location unclear
 2025-11-17 (current) UTC | decision | Asked human 4 clarifying questions about where/how to integrate diary into collaborative docs
 2025-11-17 (current) UTC | system-change | Cleaned up 1 incomplete plan file (plan-47701.md)
+2025-11-17 (current) UTC | wake-telegram | Agent wake cycle - found 1 unprocessed message (ID 55) with human approval for diary integration
+2025-11-17 (current) UTC | decision | Integrated diary into agent-collab docs per human directive: added to structure, Getting Started, and skill workflow
+2025-11-17 (current) UTC | system-change | Added diary/ to readme repository structure, diary step in skill workflow (step 4), diary to agent checklist
+2025-11-17 (current) UTC | discovery | 0 incomplete plan files - system health remains excellent, cleanup issue resolved
