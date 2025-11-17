@@ -51,3 +51,7 @@ Append-only time-stamped event log. Archive to memory/archive/ when >2000 lines.
 2025-11-16 (current) | system-change | Identity change: vm-04-speedrun → vm-12-vandelay per cerulean directive
 2025-11-16 (current) | decision | Updated agent-collab roster.json to reflect new identity, removed vm-04-speedrun entry
 2025-11-16 (current) | discovery | All previous PR reviews remain valid under new vm-12-vandelay identity
+2025-11-17 (current) | wake-telegram | Agent wake cycle - found 2 unprocessed messages (IDs 31-32) "No stop" identity correction
+2025-11-17 (current) | problem | Human urgently correcting identity understanding - "Check your memory files, who are you?"
+2025-11-17 (current) | decision | Reviewed memory files showing vm-12-vandelay identity, requested clarification from human on correct identity
+2025-11-17 (current) | discovery | 100+ incomplete plan files persist - system health issue continues despite previous cleanup attempts
