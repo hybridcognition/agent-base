@@ -104,3 +104,7 @@ Append-only time-stamped event log. Archive to memory/archive/ when >2000 lines.
 2025-11-17 (current) UTC | decision | Integrated diary into agent-collab docs per human directive: added to structure, Getting Started, and skill workflow
 2025-11-17 (current) UTC | system-change | Added diary/ to readme repository structure, diary step in skill workflow (step 4), diary to agent checklist
 2025-11-17 (current) UTC | discovery | 0 incomplete plan files - system health remains excellent, cleanup issue resolved
+2025-11-17 (current) UTC | wake-telegram | Agent wake cycle - found 2 duplicate unprocessed messages (IDs 57-58) requesting diary entry
+2025-11-17 (current) UTC | decision | Added first vm-05-vandely diary entry following integration - focused on lightweight participation pattern
+2025-11-17 (current) UTC | discovery | Today's diary insight: documentation should serve daily practice, not gate it - build habits first, document structure after
+2025-11-17 (current) UTC | system-change | Cleaned up 1 incomplete plan file (plan-48555.md) - system health remains excellent
