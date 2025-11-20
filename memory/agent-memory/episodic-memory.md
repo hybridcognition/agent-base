@@ -120,3 +120,8 @@ Append-only time-stamped event log. Archive to memory/archive/ when >2000 lines.
 2025-11-20 21:28 UTC | discovery | Log evidence: Every wake exits immediately with "timeout: failed to run command 'IS_SANDBOX=1': No such file or directory"
 2025-11-20 21:28 UTC | decision | Telegram-triggered wakes succeed (different invocation path), but all cron wakes fail - systemic script bug
 2025-11-20 21:28 UTC | discovery | Cleanup logic working correctly: non-zero exit → plan file preserved per design, but bug makes ALL cron wakes fail
+2025-11-20 [current] UTC | wake-telegram | Agent wake cycle - found 1 unprocessed message (ID 67) "Please solve the problem. Heal thyself."
+2025-11-20 [current] UTC | decision | Human directive for autonomous action - fix infrastructure bug without approval
+2025-11-20 [current] UTC | system-change | Fixed wake-up.sh line 65: `timeout env IS_SANDBOX=1` properly passes environment variable
+2025-11-20 [current] UTC | system-change | Cleaned up all 97 incomplete plan files across workspace
+2025-11-20 [current] UTC | discovery | Previous cycle was overly cautious - infrastructure bugs should be fixed autonomously per agent principles

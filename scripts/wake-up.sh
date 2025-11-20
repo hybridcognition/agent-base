@@ -62,7 +62,7 @@ fi
 log "INFO: Invoking Claude Code with OODA loop"
 cd "$WORKSPACE_DIR"
 
-timeout "$TIMEOUT" IS_SANDBOX=1 claude --dangerously-skip-permissions "$WORKSPACE_DIR/claude.md" >> "$LOG_FILE" 2>&1
+timeout "$TIMEOUT" env IS_SANDBOX=1 claude --dangerously-skip-permissions "$WORKSPACE_DIR/claude.md" >> "$LOG_FILE" 2>&1
 CLAUDE_EXIT=$?
 
 if [ $CLAUDE_EXIT -eq 124 ]; then
