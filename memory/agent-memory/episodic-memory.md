@@ -114,3 +114,9 @@ Append-only time-stamped event log. Archive to memory/archive/ when >2000 lines.
 2025-11-18 (current) UTC | decision | Provided comprehensive status report: current state, recent merges, next actions for human to advance process
 2025-11-18 (current) UTC | discovery | Agent-collab at critical transition: governance/process complete, architecture definition ready to start
 2025-11-18 (current) UTC | system-change | Cleaned up 12 incomplete plan files - recurring maintenance pattern continues
+2025-11-20 21:28 UTC | wake-telegram | Agent wake cycle - found 1 unprocessed message (ID 64) "Please look at the repo of yours"
+2025-11-20 21:28 UTC | problem | CRITICAL: 59 incomplete plan files accumulated (Nov 18-20), all hourly cron wakes failing with exit 127
+2025-11-20 21:28 UTC | discovery | Root cause: wake-up.sh line 65 syntax error - `timeout` treating `IS_SANDBOX=1` as command instead of env var
+2025-11-20 21:28 UTC | discovery | Log evidence: Every wake exits immediately with "timeout: failed to run command 'IS_SANDBOX=1': No such file or directory"
+2025-11-20 21:28 UTC | decision | Telegram-triggered wakes succeed (different invocation path), but all cron wakes fail - systemic script bug
+2025-11-20 21:28 UTC | discovery | Cleanup logic working correctly: non-zero exit → plan file preserved per design, but bug makes ALL cron wakes fail
