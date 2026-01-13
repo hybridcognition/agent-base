@@ -48,4 +48,4 @@ Format: `date/time | type (cron, github trigger, manual) | summary of actions`
 
 _Significant events logged with timestamps._
 
-[YYYY-MM-DD HH:MM UTC] | Agent-base template initialized from vm-01-invocation architecture.
+[YYYY-MM-DD HH:MM UTC] | Agent-base template initialized.
