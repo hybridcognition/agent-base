@@ -12,10 +12,10 @@
 
 ### Step 1: Scan Episodic Memory
 
-Read `memory/agent-memory/episodic-memory.md` focusing on entries since last consolidation.
+Read `memory/episodic-memory.md` focusing on entries since last consolidation.
 
 **Look for**:
-- Event types: wake-cron, wake-telegram, decision, discovery, problem, system-change
+- Event types: wake-cron, wake-trigger, decision, discovery, problem, system-change
 - Timestamps and frequency
 - Sequences and causation
 - Outliers and anomalies
@@ -64,7 +64,7 @@ Principle: Respect circadian alignment - match task complexity to energy
 
 ### Step 4: Update Semantic Memory
 
-Append learnings to `memory/agent-memory/semantic-memory.md`.
+Append learnings to `memory/semantic-memory.md`.
 
 **Where to add**:
 - **Emerging Principles**: If pattern observed 3+ times
@@ -86,15 +86,16 @@ Append learnings to `memory/agent-memory/semantic-memory.md`.
 
 ### Step 5: Archive Old Episodic Entries
 
-If `episodic-memory.md` exceeds 2000 lines, archive older entries.
+If `memory/episodic-memory.md` exceeds 2000 lines, archive older entries.
 
 **Process**:
 ```bash
 # Create archive file
-ARCHIVE_FILE="memory/archive/episodic-$(date +%Y-%m).md"
+ARCHIVE_FILE="memory/archive/episodic-$(date +%Y-%m-%d).md"
 
 # Move entries older than 30 days to archive
 # Keep recent entries in episodic-memory.md
+# Add note at top: "Previous archive: [filename] (N lines)"
 ```
 
 **Rationale**: Keep working memory fast, preserve history for analysis
@@ -103,59 +104,41 @@ ARCHIVE_FILE="memory/archive/episodic-$(date +%Y-%m).md"
 
 ---
 
-### Step 6: Update Task Health Metrics
+### Step 6: Update Working Memory Status
 
-Review all tasks in `memory/project-memory/active.md`.
+Review `memory/working-memory.md` and update:
 
-**For each task, calculate**:
-- Days since last touched
-- Current status (In Progress / Blocked / Waiting)
-- Decay category:
-  - 0-7 days: Healthy
-  - 7-10 days: Nudge
-  - 10-14 days: Challenge
-  - 14+ days: Escalate
+**Task Health Metrics** (if tracking tasks):
+- 0-7 days: Healthy
+- 7-10 days: Nudge
+- 10-14 days: Challenge
+- 14+ days: Escalate
 
-**Update** `memory/agent-memory/working-memory.md` with counts:
-```markdown
-## Task Health Metrics
+**Current Status**: Update "Right Now" section with accurate present state
 
-- **0-7 days**: 3 tasks
-- **7-10 days**: 1 task (nudge)
-- **10-14 days**: 0 tasks
-- **14+ days**: 1 task (escalate)
-```
+**Pending Actions**: Remove completed items, add new blockers
 
-**Action required**:
-- If any tasks 14+ days: Add to pending actions "Escalate stale task: [title]"
-- If any tasks 10-14 days: Add note to challenge in next cycle
-
-**Output**: Updated task health metrics, identified stale tasks
+**Output**: Updated working-memory.md with current state
 
 ---
 
-### Step 7: Review Backlog Relevance
+### Step 7: Update Active Hypotheses
 
-Read `memory/project-memory/backlog.md` and `memory/project-memory/context.md`.
+Review the Active Hypotheses table in `memory/working-memory.md`.
 
-**For each backlog item, ask**:
-- Is "Waiting For" condition met?
-- Does "Surface When" match current context?
-- Is this still relevant given recent learnings?
+**For each hypothesis**:
+- Do recent events provide evidence for/against?
+- Can status be updated (Active → Confirmed/Rejected)?
+- Should new hypotheses be added?
 
-**Actions**:
-- Move to active.md if ready
-- Archive if no longer relevant
-- Update "Surface When" if conditions changed
+**Format**:
+```markdown
+| Question | Hypothesis | Test Criteria | Status |
+|----------|-----------|---------------|--------|
+| Why X? | Because Y | Observe Z 3x | Confirmed |
+```
 
-**Capacity check**:
-- Current energy level (from context.md)
-- Active task count (target: 3-5)
-- Available focus windows
-
-**Decision**: Pull 1-2 items from backlog if capacity available and conditions met
-
-**Output**: Updated active.md and/or backlog.md
+**Output**: Updated hypotheses with status changes
 
 ---
 
@@ -169,10 +152,8 @@ git commit -m "Memory consolidation: [date]
 
 Consolidated [N] events from episodic memory
 Extracted [N] patterns into semantic memory
-Updated task health metrics
-Reviewed backlog for [N] items
-
-🧠 Memory consolidation cycle
+Updated working memory status
+Reviewed hypotheses
 
 Co-Authored-By: Claude <noreply@anthropic.com>"
 
@@ -190,7 +171,7 @@ Before finishing consolidation, verify:
 ✅ Episodic memory has new events since last consolidation
 ✅ At least one pattern identified (if sufficient events)
 ✅ Semantic memory updated with learnings
-✅ Task health metrics current
+✅ Working memory reflects current state
 ✅ All memory files valid markdown
 ✅ Changes committed to git
 
@@ -202,8 +183,8 @@ After consolidation:
 - Agent has distilled experiences into reusable knowledge
 - Patterns become principles after 3+ observations
 - Memory stays manageable (<2000 lines episodic)
-- Task decay is detected and acted upon
-- Backlog is reviewed for readiness
+- Working memory reflects current reality
+- Hypotheses are tracked and updated
 - All context is preserved in git
 
 ---
