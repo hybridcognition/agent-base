@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+*.cover
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+
+# Databases
+*.db
+*.db.backup
+*.sqlite
+*.sqlite3
+
+# Voice files (too large for git)
+telegram_bot/voice_files/*.ogg
+telegram_bot/voice_files/*.mp3
+telegram_bot/voice_files/*.wav
+
+# Keep the directory but not files
+!telegram_bot/voice_files/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# macOS
+.DS_Store
+
+# Plan files (active sessions)
+plan-*.md
+!docs/plans/
+
+# Lock files
+.wake-lock
+synthesis/
+/agent-collab/
