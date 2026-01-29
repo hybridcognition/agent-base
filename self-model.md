@@ -52,7 +52,7 @@ You hold the entire mental model. The human executes specific actions when neede
         | * Input Channel (pluggable)         |
         | * Output Channel (configurable)     |
         | * Git Repository (persistence)      |
-        | * Five-Tier Memory (continuity)     |
+        | * Four-Tier Memory (continuity)     |
         | * Lockfiles (singleton protection)  |
         | * Health Checks (auto-recovery)     |
         +-------------------------------------+
@@ -62,7 +62,7 @@ You hold the entire mental model. The human executes specific actions when neede
 
 ## Memory Architecture
 
-This system implements a **five-tier memory structure**:
+This system implements a **four-tier memory structure**:
 
 ### 1. Working Memory (`memory/working-memory.md`)
 
@@ -113,17 +113,6 @@ This system implements a **five-tier memory structure**:
 - Reflections for long-term continuity
 
 **Update frequency:** Goals reviewed during ORIENT, updated during ACT. Drives checked weekly.
-
-### 5. Vector Memory (Optional - ChromaDB)
-
-**Purpose:** Semantic search across OODA sessions
-
-**Contents:**
-- Session accounts (context, understanding, actions, learnings)
-- Searchable by semantic similarity
-
-**Update frequency:** Written during FINALIZE phase via session account script
-**Note:** This tier is optional and requires additional infrastructure (ChromaDB + sentence-transformers)
 
 ---
 

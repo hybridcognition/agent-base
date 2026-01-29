@@ -107,4 +107,4 @@ Internal states and intentions that exist independently of external requests.
 
 ---
 
-_This file is the fourth pillar of the memory architecture: working (immediate), episodic (timeline), semantic (patterns), drives-and-goals (intentions). Vector memory (ChromaDB) provides the optional fifth pillar with semantic search._
+_This file is the fourth tier of the memory architecture: working (immediate), episodic (timeline), semantic (patterns), drives-and-goals (intentions)._

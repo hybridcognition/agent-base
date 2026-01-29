@@ -8,7 +8,7 @@ This template provides the infrastructure for building agents that:
 - **Persist state** across sessions via git-versioned markdown files
 - **Wake on schedule** via cron jobs with crash recovery
 - **Execute autonomously** using the OODA loop (Observe-Orient-Decide-Act-Verify-Finalize)
-- **Learn over time** with a five-tier memory system
+- **Learn over time** with a four-tier memory system
 
 The architecture is input-channel agnostic - you can connect it to Telegram, GitHub issues, Discord, or any other source of tasks.
 
@@ -49,13 +49,12 @@ Every wake cycle follows this framework:
 
 ### Memory System
 
-Five-tier memory with clear separation:
+Four-tier memory with clear separation:
 
 - **working-memory.md** - Current context, active tasks, what's happening right now
 - **episodic-memory.md** - Time-stamped event log, append-only history
 - **semantic-memory.md** - Learned patterns and principles, wisdom extracted over time
 - **drives-and-goals.md** - Internal states, goals, and motivations (optional)
-- **Vector Memory** - Semantic search via ChromaDB (optional, requires additional setup)
 
 ### Crash Recovery
 
